@@ -1,0 +1,18 @@
+﻿<Window x:Class="Puzzle.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Puzzle"
+        mc:Ignorable="d"
+        Title="Help" ResizeMode="NoResize" Height="220" Width="480">
+    <Canvas>
+        <StackPanel Background="LightGray" Width="480">
+            <TextBlock Text="PUZZLE version 1.0" FontSize="20" Foreground="White" Padding="10 5 10 5"/>
+        </StackPanel>
+        <TextBlock Text="Di chuyển các ô qua lại để được trật tự hình đúng. Di chuyển bằng 4 phím mũi" Canvas.Left="10" Canvas.Top="63" FontSize="12"/>
+        <TextBlock Text="tên hoặc kéo thả hình đều được. Có thể chọn lựa hình, xem điểm cao,..." Canvas.Left="10" Canvas.Top="84" FontSize="12"/>
+        <Button Name="CloseBtn" Content="Close" Click="btnClose_Click" Canvas.Left="373" Canvas.Top="128" Width="80" Height="25"/>
+
+    </Canvas>
+</Window>
